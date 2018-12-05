@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet.ServiceData
 {
-    public class Class1
+    public class STache
     {
     }
 }
