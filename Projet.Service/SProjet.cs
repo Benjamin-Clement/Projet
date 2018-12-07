@@ -23,5 +23,15 @@ namespace Projet.Service
         {
             SDFactory.GetDataProjet().InsertProjet(new Bean.SBProjet(Id,LeNom, LeResponsable, LeDebut));
         }
+
+        public void UpdateProjet(string Id, string LeNom, int LeResponsable, DateTime LeDebut)
+        {
+            SDFactory.GetDataProjet().UpdateProjet(new Bean.SBProjet(Id, LeNom, LeResponsable, LeDebut));
+        }
+
+        public void DeleteProjet(string id)
+        {
+            SDFactory.GetDataProjet().DeleteProjet(id);
+        }
     }
 }

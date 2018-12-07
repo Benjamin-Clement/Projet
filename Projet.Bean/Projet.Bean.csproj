@@ -41,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exigences.cs" />
-    <Compile Include="Jalon.cs" />
+    <Compile Include="SBExigences.cs" />
+    <Compile Include="SBJalon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SBProjet.cs" />
     <Compile Include="SBResponsable.cs" />
-    <Compile Include="Tache.cs" />
+    <Compile Include="SBTypeExigence.cs" />
+    <Compile Include="SBTache.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -32,5 +32,10 @@ namespace Projet.ServiceData
         {
             return new STache();
         }
+
+        public static STypeExigence GetDataType()
+        {
+            return new STypeExigence();
+        }
     }
 }

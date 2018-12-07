@@ -42,9 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SExigence.cs" />
     <Compile Include="SFactory.cs" />
+    <Compile Include="SJalon.cs" />
     <Compile Include="SProjet.cs" />
     <Compile Include="SResponsable.cs" />
+    <Compile Include="STache.cs" />
+    <Compile Include="STypeExigence.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Projet.Bean\Projet.Bean.csproj">

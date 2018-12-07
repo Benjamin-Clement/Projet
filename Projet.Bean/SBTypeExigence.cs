@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace Projet.Bean
 {
-    class Jalon
+    public class SBTypeExigence
     {
         public int Id { get; set; }
         public string Label { get; set; }
-        public DateTime DatePrevu { get; set; }
 
-        public Jalon(int id, string label, DateTime datePrevu)
+        public SBTypeExigence(int id, string label)
         {
             Id = id;
             Label = label;
-            DatePrevu = datePrevu;
         }
 
-        public Jalon(string label, DateTime datePrevu)
+        public SBTypeExigence(string label)
         {
             Label = label;
-            DatePrevu = datePrevu;
         }
+
     }
 }

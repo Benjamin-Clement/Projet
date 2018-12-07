@@ -6,17 +6,25 @@ using System.Threading.Tasks;
 
 namespace Projet.Bean
 {
-    class Exigences
+    public class SBExigences
     {
         public int Id { get; set; }
         public string Label { get; set; }
         public int Fonctionnel { get; set; }
         public int type { get; set; }
-        public int Projet {get;set;}
+        public string Projet {get;set;}
 
-        public Exigences(int id, string label, int fonctionnel, int type, int projet)
+        public SBExigences(int id, string label, int fonctionnel, int type, string projet)
         {
             Id = id;
+            Label = label;
+            Fonctionnel = fonctionnel;
+            this.type = type;
+            Projet = projet;
+        }
+
+        public SBExigences( string label, int fonctionnel, int type, string projet)
+        {
             Label = label;
             Fonctionnel = fonctionnel;
             this.type = type;

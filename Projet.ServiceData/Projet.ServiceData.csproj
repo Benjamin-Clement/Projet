@@ -74,6 +74,7 @@
     <Compile Include="SProjet.cs" />
     <Compile Include="SResponsable.cs" />
     <Compile Include="STache.cs" />
+    <Compile Include="STypeExigence.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database.mdf">

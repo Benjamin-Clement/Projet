@@ -46,16 +46,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddExigence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddExigence.Designer.cs">
+      <DependentUpon>AddExigence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddJalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJalon.Designer.cs">
+      <DependentUpon>AddJalon.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddProjet.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddProjet.Designer.cs">
       <DependentUpon>AddProjet.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTache.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTache.Designer.cs">
+      <DependentUpon>AddTache.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProjet.Designer.cs">
+      <DependentUpon>DeleteProjet.cs</DependentUpon>
     </Compile>
     <Compile Include="LesProjets.cs">
       <SubType>Form</SubType>
@@ -63,13 +87,34 @@
     <Compile Include="LesProjets.Designer.cs">
       <DependentUpon>LesProjets.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModifProjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifProjet.Designer.cs">
+      <DependentUpon>ModifProjet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddExigence.resx">
+      <DependentUpon>AddExigence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJalon.resx">
+      <DependentUpon>AddJalon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddProjet.resx">
       <DependentUpon>AddProjet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddTache.resx">
+      <DependentUpon>AddTache.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProjet.resx">
+      <DependentUpon>DeleteProjet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LesProjets.resx">
       <DependentUpon>LesProjets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifProjet.resx">
+      <DependentUpon>ModifProjet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

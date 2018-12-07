@@ -19,6 +19,11 @@ namespace Projet.Service
             return SDFactory.GetDataResponsable().GetByTri(tri);
         }
 
+        public Bean.SBResponsable GetById(int ID)
+        {
+            return SDFactory.GetDataResponsable().GetById(ID);
+        }
+
         public int AddResposable(string tri)
         {
             SDFactory.GetDataResponsable().InsertResponsable(tri);

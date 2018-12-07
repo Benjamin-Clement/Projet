@@ -35,6 +35,18 @@ namespace Projet.ServiceData
             return R;
         }
 
+        public SBResponsable GetById(int ID)
+        {
+            SBResponsable R = null;
+
+            foreach (DataSet.ResponsableRow Res in MyAdapter.GetById(ID))
+            {
+                R = new SBResponsable(Res.Id, Res.Trigramme);
+            }
+
+            return R;
+        }
+
         public void InsertResponsable(string tri)
         {
             

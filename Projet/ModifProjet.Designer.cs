@@ -1,6 +1,6 @@
 ﻿namespace Projet
 {
-    partial class AddProjet
+    partial class ModifProjet
     {
         /// <summary>
         /// Required designer variable.
@@ -28,86 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.ReturnResponsable = new System.Windows.Forms.Button();
             this.TextBoxResponsable = new System.Windows.Forms.TextBox();
             this.AddResponsable = new System.Windows.Forms.Button();
             this.ResponsableProjet = new System.Windows.Forms.ComboBox();
             this.IdProjet = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.BtnValider = new System.Windows.Forms.Button();
             this.BtnAnnuler = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.CalendarProject = new System.Windows.Forms.MonthCalendar();
             this.ProjectName = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(522, 10);
-            this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 10);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 440);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(512, 10);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 440);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(10, 440);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(502, 10);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(73)))));
-            this.panel5.Controls.Add(this.ReturnResponsable);
-            this.panel5.Controls.Add(this.TextBoxResponsable);
-            this.panel5.Controls.Add(this.AddResponsable);
-            this.panel5.Controls.Add(this.ResponsableProjet);
-            this.panel5.Controls.Add(this.IdProjet);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Controls.Add(this.BtnValider);
-            this.panel5.Controls.Add(this.BtnAnnuler);
-            this.panel5.Controls.Add(this.label2);
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Controls.Add(this.CalendarProject);
-            this.panel5.Controls.Add(this.ProjectName);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(10, 10);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(502, 430);
-            this.panel5.TabIndex = 4;
-            // 
             // ReturnResponsable
             // 
-            this.ReturnResponsable.Location = new System.Drawing.Point(376, 75);
+            this.ReturnResponsable.Location = new System.Drawing.Point(376, 83);
             this.ReturnResponsable.Name = "ReturnResponsable";
             this.ReturnResponsable.Size = new System.Drawing.Size(75, 23);
             this.ReturnResponsable.TabIndex = 12;
@@ -118,7 +61,7 @@
             // 
             // TextBoxResponsable
             // 
-            this.TextBoxResponsable.Location = new System.Drawing.Point(231, 75);
+            this.TextBoxResponsable.Location = new System.Drawing.Point(231, 82);
             this.TextBoxResponsable.Name = "TextBoxResponsable";
             this.TextBoxResponsable.Size = new System.Drawing.Size(139, 22);
             this.TextBoxResponsable.TabIndex = 11;
@@ -126,7 +69,7 @@
             // 
             // AddResponsable
             // 
-            this.AddResponsable.Location = new System.Drawing.Point(376, 77);
+            this.AddResponsable.Location = new System.Drawing.Point(376, 83);
             this.AddResponsable.Name = "AddResponsable";
             this.AddResponsable.Size = new System.Drawing.Size(21, 23);
             this.AddResponsable.TabIndex = 10;
@@ -137,7 +80,7 @@
             // ResponsableProjet
             // 
             this.ResponsableProjet.FormattingEnabled = true;
-            this.ResponsableProjet.Location = new System.Drawing.Point(231, 75);
+            this.ResponsableProjet.Location = new System.Drawing.Point(231, 81);
             this.ResponsableProjet.Name = "ResponsableProjet";
             this.ResponsableProjet.Size = new System.Drawing.Size(139, 24);
             this.ResponsableProjet.TabIndex = 9;
@@ -146,6 +89,7 @@
             // 
             this.IdProjet.Location = new System.Drawing.Point(231, 19);
             this.IdProjet.Name = "IdProjet";
+            this.IdProjet.ReadOnly = true;
             this.IdProjet.Size = new System.Drawing.Size(139, 22);
             this.IdProjet.TabIndex = 8;
             // 
@@ -159,6 +103,33 @@
             this.label3.Size = new System.Drawing.Size(87, 18);
             this.label3.TabIndex = 7;
             this.label3.Text = "Identifiant :";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(493, 10);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 430);
+            this.panel3.TabIndex = 7;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 10);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(10, 430);
+            this.panel2.TabIndex = 6;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(503, 10);
+            this.panel1.TabIndex = 5;
             // 
             // BtnValider
             // 
@@ -193,7 +164,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(105, 79);
+            this.label2.Location = new System.Drawing.Point(105, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 18);
             this.label2.TabIndex = 4;
@@ -213,33 +184,62 @@
             // CalendarProject
             // 
             this.CalendarProject.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.CalendarProject.Location = new System.Drawing.Point(108, 109);
+            this.CalendarProject.Location = new System.Drawing.Point(108, 114);
             this.CalendarProject.Name = "CalendarProject";
             this.CalendarProject.TabIndex = 2;
             // 
             // ProjectName
             // 
             this.ProjectName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ProjectName.Location = new System.Drawing.Point(231, 47);
+            this.ProjectName.Location = new System.Drawing.Point(231, 52);
             this.ProjectName.Name = "ProjectName";
             this.ProjectName.Size = new System.Drawing.Size(139, 22);
             this.ProjectName.TabIndex = 0;
             // 
-            // AddProjet
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(73)))));
+            this.panel5.Controls.Add(this.ReturnResponsable);
+            this.panel5.Controls.Add(this.TextBoxResponsable);
+            this.panel5.Controls.Add(this.AddResponsable);
+            this.panel5.Controls.Add(this.ResponsableProjet);
+            this.panel5.Controls.Add(this.IdProjet);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.BtnValider);
+            this.panel5.Controls.Add(this.BtnAnnuler);
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Controls.Add(this.CalendarProject);
+            this.panel5.Controls.Add(this.ProjectName);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(503, 440);
+            this.panel5.TabIndex = 9;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(56)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 440);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(503, 10);
+            this.panel4.TabIndex = 8;
+            // 
+            // ModifProjet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(522, 450);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(503, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AddProjet";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "AddProjet";
-            this.Load += new System.EventHandler(this.AddProjet_Load);
+            this.Name = "ModifProjet";
+            this.Text = "ModifProjet";
+            this.Load += new System.EventHandler(this.ModifProjet_Load);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
@@ -248,22 +248,22 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button ReturnResponsable;
+        private System.Windows.Forms.TextBox TextBoxResponsable;
+        private System.Windows.Forms.Button AddResponsable;
+        private System.Windows.Forms.ComboBox ResponsableProjet;
+        private System.Windows.Forms.TextBox IdProjet;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BtnValider;
         private System.Windows.Forms.Button BtnAnnuler;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MonthCalendar CalendarProject;
         private System.Windows.Forms.TextBox ProjectName;
-        private System.Windows.Forms.Button AddResponsable;
-        private System.Windows.Forms.ComboBox ResponsableProjet;
-        private System.Windows.Forms.TextBox IdProjet;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox TextBoxResponsable;
-        private System.Windows.Forms.Button ReturnResponsable;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
     }
 }

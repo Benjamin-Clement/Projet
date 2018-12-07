@@ -18,5 +18,25 @@ namespace Projet.Service
         {
             return new SResponsable();
         }
+
+        public static SExigence GetServiceExigence()
+        {
+            return new SExigence();
+        }
+
+        public static STypeExigence GetServiceType()
+        {
+            return new STypeExigence();
+        }
+
+        public static SJalon GetServiceJalon()
+        {
+            return new SJalon();
+        }
+
+        public static STache GetServiceTache()
+        {
+            return new STache();
+        }
     }
 }

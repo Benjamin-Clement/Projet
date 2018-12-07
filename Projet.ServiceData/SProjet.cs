@@ -41,5 +41,15 @@ namespace Projet.ServiceData
             MyAdapter.InsertProjet(P.Id,P.Nom, P.Responsable, P.Debut);
             
         }
+
+        public void UpdateProjet(SBProjet P)
+        {
+            MyAdapter.UpdateProjet(P.Nom, P.Responsable, P.Debut, P.Id);
+        }
+
+        public void DeleteProjet(string id)
+        {
+            MyAdapter.DeleteProjet(id);
+        }
     }
 }
